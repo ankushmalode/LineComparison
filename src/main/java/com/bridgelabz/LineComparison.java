@@ -36,5 +36,6 @@ public class LineComparison {
         String x = String.valueOf(length1);
         String y = String.valueOf(length2);
         System.out.println(x.equals(y));
+        System.out.println(x.compareTo(y));
     }
 }
